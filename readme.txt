@@ -18,7 +18,7 @@ With this plugin installed you can supply your customers with the Facebook Like-
 1. Upload the folder to the `/wp-content/plugins/` directory
 2. The plugin is NOT going to change or edit your Shopp files, but just to be sure, back up your files and database.
 3. Activate the plugin through the 'Plugins' menu in WordPress
-4. Put `<?php shopp('product','facebook-like'); ?>` in your Shopp product.php template file.
+4. Put `<?php shopp('product','facebook'); ?>` in your Shopp product.php template file.
  
 == Frequently Asked Questions ==
 
