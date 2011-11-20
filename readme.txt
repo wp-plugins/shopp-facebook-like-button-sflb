@@ -24,7 +24,7 @@ Download and install the plugin through your WordPress Admin Panel, or
 4. The plugin is NOT going to change or edit your Shopp files, but just to be sure, back up your files and database.
 5. Activate the plugin through the 'Plugins' menu in WordPress
 6. Put `<?php shopp('product','facebook'); ?>` in your Shopp product.php template file.
-7. Adjust the settings on the settings page (Shopp Extra, Shopp sflb)
+7. Adjust the settings on the settings page (Shopp sflb)
 8. Supply <a href='Plugin URI: http://www.shoppdeveloper.com/shopp-facebook-like-button-plugin/' title='Shoppdeveloper.com feedback for Facebook Like Button Plugin'>Feedback</a>. We'd love to hear from you!
  
 == Frequently Asked Questions ==
@@ -48,7 +48,10 @@ The plugin is in English. Dutch language files are already present. Checkout the
 
 = What version of Shopp do I need? =
 
-This 1.2 version of the plugin has been tested with Shopp 1.2b6 beta release. If you are using Shopp 1.1.9, please download version 1.0 of this plugin.
+This 1.0 version has been tested with Shopp 1.1.9. 
+
+If you are testing Shopp 1.2 beta please download our 1.2 version from the <a href="http://wordpress.org/extend/plugins/shopp-facebook-like-button-sflb/download/">Download page</a>.
+
 
 == Screenshots ==
 
@@ -59,7 +62,7 @@ This 1.2 version of the plugin has been tested with Shopp 1.2b6 beta release. If
 == Changelog ==
 
 = 1.2 =
-New version to work with Shopp 1.2r6 beta. No need to update if you are not using the 1.2 (beta) version of Shopp. Due to changes to the Shopp Menu (in Admin Panel) we have added the 'Shopp Extra' parent menu which will facilitate all our Shopp plugins.
+Added an extra version to work with Shopp 1.2r6 beta. No need to update if you are not using the 1.2 (beta) version of Shopp. Due to changes to the Shopp Menu (in Admin Panel) we have added the 'Shopp Extra' parent menu which will facilitate all our Shopp plugins.
 
 = 1.0 =
 First version on WordPress.com SVN 
@@ -70,7 +73,7 @@ First version. Ready to go live.
 == Upgrade Notice ==
 
 = 1.2 =
-New version to work with Shopp 1.2r6 beta. No need to update if you are not using the 1.2 (beta) version of Shopp.
+Added an extra version to work with Shopp 1.2r6 beta. No need to update if you are not using the 1.2 (beta) version of Shopp.
 
 = 1.0 =
 First version on WordPress.com SVN 
