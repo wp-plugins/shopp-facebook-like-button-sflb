@@ -40,7 +40,7 @@ if( is_admin() ) {
 
 add_action('wp_head','sflb_add_facebook_open_graph_tags');
 
-add_sflb_stylesheet();
+add_action('wp_enqueue_scripts','add_sflb_stylesheet');
 
 add_filter('shopp_tag_product_facebook','sflb',10,3);
 
