@@ -1,8 +1,8 @@
 <?php
 /*
-* SFLB functions - Provides function for SFLB.
+* SFLB functions - Provides output function for SFLB.
 *
-* @version 1.0
+* @version 1.2
 * @since 0.1
 * @package shopp-sflb
 * @subpackage sflb-functions
@@ -39,6 +39,7 @@ function sflb( $result, $options, $Product){
 
 function sflb_add_facebook_open_graph_tags(){
 	global $Shopp;
+	$current_product		= shopp('product','id','return=true');
 	$sflb_options		= get_option( 'sflb_options' );
 	// only on Shopp Product Page, load the Open Graph Tags
 	if( (shopp( 'catalog','is-product' )) && ($sflb_options['og_fb_id'] != '') ){
@@ -49,6 +50,8 @@ function sflb_add_facebook_open_graph_tags(){
 		echo "<meta property='og:image' content='".shopp('product','coverimage',"property=url&size=$sflb_og_image_size&return=true")."' />";
 		echo "<meta property='og:site_name' content='".get_bloginfo('name')."' />";
 		echo "<meta property='fb:".$sflb_options['og_fb_type']."' content='".$sflb_options['og_fb_id']."'/>";
+	shopp('catalog','product',"id=$current_product&load=true");
 	}
 }
+
 ?>

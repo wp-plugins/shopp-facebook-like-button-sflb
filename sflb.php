@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Shopp Facebook Like Button (sflb)
-Plugin URI: http://www.shoppdeveloper.com
+Plugin URI: http://www.shoppdeveloper.com/shopp-facebook-like-button-plugin/
 Donate link: http://www.shoppdeveloper.com
 Description: This plugin adds the Facebook Like-button to the Shopp Product Pages of your Shopp webshop.
-Version: 1.0
+Version: 1.2
 Author: Shoppdeveloper.com
 Author URI: http://www.shoppdeveloper.com
 License: GPLv2
@@ -32,6 +32,7 @@ require_once( 'sflb-output.php' );
 
 if( is_admin() ) {
 	// settings page for Administrator only
+	global $shoppExtraMenu;
 	require_once( 'sflb-options.php' );
 	global $sflbSettingsPage;
 	$sflbSettingsPage = new SFLBSettingsPage;
