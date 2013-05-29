@@ -42,7 +42,7 @@ function sflb_add_facebook_open_graph_tags(){
 	$current_product		= shopp('product','id','return=true');
 	$sflb_options		= get_option( 'sflb_options' );
 	// only on Shopp Product Page, load the Open Graph Tags
-	if( (shopp( 'catalog','is-product' )) && ($sflb_options['og_fb_id'] != '') ){
+	if( (shopp( 'storefront','is-product' )) && ($sflb_options['og_fb_id'] != '') ){
 		$sflb_og_image_size	= $sflb_options['og_image_size'];
 		echo "<meta property='og:title' content='".shopp('product','name','return=true')."' />";
 		echo "<meta property='og:type' content='".$sflb_options['og_type']."' />";
@@ -50,7 +50,7 @@ function sflb_add_facebook_open_graph_tags(){
 		echo "<meta property='og:image' content='".shopp('product','coverimage',"property=url&size=$sflb_og_image_size&return=true")."' />";
 		echo "<meta property='og:site_name' content='".get_bloginfo('name')."' />";
 		echo "<meta property='fb:".$sflb_options['og_fb_type']."' content='".$sflb_options['og_fb_id']."'/>";
-	shopp('catalog','product',"id=$current_product&load=true");
+	shopp('storefront','product',"id=$current_product&load=true");
 	}
 }
 
