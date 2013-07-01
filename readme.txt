@@ -4,7 +4,7 @@ Donate link: http://www.shoppdeveloper.com/
 Tags: shopp,products,ecommerce,webshop,facebook,like,plugin
 Requires at least: 2.0.2
 Tested up to: 3.2.1
-Stable tag: 1.0
+Stable tag: 1.2
 
 Add the Facebook Like-Button to your Shopp product pages. The link on Facebook will link back to the actual product page.
 
