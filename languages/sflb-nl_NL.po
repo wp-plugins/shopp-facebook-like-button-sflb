@@ -2,354 +2,522 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shopp Facebook Like Button (sflb)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-15 13:55+0100\n"
+"POT-Creation-Date: 2015-01-23 21:34+0100\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Shoppforum.com <webmaster@shoppforum.com>\n"
+"Last-Translator: Shoppdeveloper.com Team <support@shoppdeveloper.com>\n"
 "Language-Team: Shoppdeveloper.com <support@shoppdeveloper.com>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Dutch\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.4\n"
 
-#: sflb-options.php:135
-msgid "Some invalid input has been discarded."
-msgstr "Ongeldige waarden zijn overgeslagen."
+#: ../includes/core.php:61
+msgid "Facebook Like settings saved."
+msgstr "Shopp Facebook Like Knop (sflb) Instellingen"
 
-#: sflb-options.php:139
-msgid "Options saved."
-msgstr "Wijzigingen opgeslagen."
+#: ../includes/mainscreen.php:36
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Je hebt onvoldoende rechten om deze pagina te bekijken."
 
-#: sflb-options.php:146
+#: ../includes/mainscreen.php:40
+msgid "Shoppdeveloper.com - Main Plugin Page"
+msgstr "Shoppdevelover.com - Plugin Hoofdpagina"
+
+#: ../includes/mainscreen.php:44
+msgid "Introduction:"
+msgstr "Introductie:"
+
+#: ../includes/mainscreen.php:46
+msgid "The Shopp Extra menu facilitates plugins created by"
+msgstr "Het Shopp Extra menu is de basis voor plugins gemaakt door"
+
+#: ../includes/mainscreen.php:47
+msgid "We'd love to hear what you like or don't like about our plugins"
+msgstr "We horen graag wat je leuk of niet leuk vindt aan onze plugins"
+
+#: ../includes/mainscreen.php:48
+msgid "What works and what doesn't"
+msgstr "Wat werkt en niet werkt"
+
+#: ../includes/mainscreen.php:50
+msgid "Thanks in advance"
+msgstr "Bij voorbaat dank"
+
+#: ../includes/other_plugins.php:3
+msgid "Plugins developed so far:"
+msgstr "Plugins gemaakt tot nu toe"
+
+#: ../includes/other_plugins.php:5
+msgid "Shopp Variations to Images"
+msgstr "Shopp Variaties bij Afbeeldingen"
+
+#: ../includes/other_plugins.php:6
+msgid ""
+"This plugin will enhance your customer's shop experience by adjusting the "
+"product image to the variation of their choice"
+msgstr ""
+"Deze plugin verbetert de winkelervaring van je klanten, door de getoonde "
+"afbeelding aan te passen aan de keuze die zij maken in het variatie menu"
+
+#: ../includes/other_plugins.php:7
+msgid ""
+"For example, when selecting a different print, or color, or model, the "
+"product image would adjust to show that print, or color, or model"
+msgstr ""
+"Het selecteren van bijvoorbeeld een andere kleur, of model van het product "
+"zorgt voor een afbeelding die overeenkomt met deze keuze "
+
+#: ../includes/other_plugins.php:9
+msgid "Shopp Bulk Price Editor"
+msgstr "Shopp Bulk Prijs Aanpassen"
+
+#: ../includes/other_plugins.php:10
+msgid "Change the price of multiple products at once"
+msgstr "Verander de prijs van meerdere producten in één keer"
+
+#: ../includes/other_plugins.php:11
+msgid ""
+"For example, increase all product prices in a certain category with a "
+"certain amount, or percentage"
+msgstr ""
+"Verhoog bijvoorbeeld de prijs van alle producten in een bepaalde categorie, "
+"met een bepaald bedrag, of percentage"
+
+#: ../includes/other_plugins.php:13
+msgid "Shopp Bulk Product Importer"
+msgstr "Shopp Bulk Product Importeren"
+
+#: ../includes/other_plugins.php:14
+msgid "Import products from a CSV file"
+msgstr "Importeer producten uit een CSV bestand"
+
+#: ../includes/other_plugins.php:16
+msgid "Shopp Cleaner"
+msgstr "Shopp Opruimen"
+
+#: ../includes/other_plugins.php:17
+msgid ""
+"Cleanup data left behind by deleted products. Or start from scratch, remove "
+"all products, categories, tags but leave orders and customer data untouched."
+msgstr ""
+"Verwijder gegevens die zijn achtergebleven na het verwijderen van producten "
+"uit de database. Of begin helemaal opnieuw, verwijder alle producten, "
+"categoriën, trefwoorden maar laat klant- en order gegevens in tact"
+
+#: ../includes/other_plugins.php:19
+msgid "Shopp Payment Add-on Mollie"
+msgstr "Shopp betaalmodule Mollie"
+
+#: ../includes/other_plugins.php:20
+msgid ""
+"For Dutch merchants. Add the features of the new Mollie API to your shop"
+msgstr ""
+"Voor Nederlandse verkopers. Maak gebruik van de nieuwe Mollie mogelijkheden"
+
+#: ../includes/other_plugins.php:21
+msgid ""
+"Accept Bancontact/Mister Cash, Bitcoin, Creditcard, iDEAL, Banktransfer, "
+"PayPal, paysafecard, and Sofort Banking payments"
+msgstr ""
+"Accepteer Bancontact/Mister Cash, Bitcoin, Creditcard, iDeal, Banktransfer, "
+"PayPal, paysafecard, and Sofort Banking betalingen"
+
+#: ../includes/settings.php:11
 msgid "Shopp Facebook Like Button (sflb) Settings"
-msgstr "Shopp Facebook Like Button (sflb) Instellingen"
+msgstr "Shopp Facebook Like Knop (sflb) Instellingen"
 
-#: sflb-options.php:152
-msgid "Send:"
-msgstr "Verzenden:"
-
-#: sflb-options.php:155
-#: sflb-options.php:183
-msgid "No"
-msgstr "Nee"
-
-#: sflb-options.php:156
-#: sflb-options.php:184
-msgid "Yes"
-msgstr "Ja"
-
-#: sflb-options.php:158
-msgid "Display a Send button next to the Like button."
-msgstr "Plaats een Verzenden knop naast de Vind ik leuk knop."
-
-#: sflb-options.php:162
-msgid "Layout:"
-msgstr "Weergave:"
-
-#: sflb-options.php:165
-msgid "Standard"
-msgstr "Standaard"
-
-#: sflb-options.php:166
-msgid "Button Count"
-msgstr "Teller in Knop"
-
-#: sflb-options.php:167
-msgid "Box Count"
-msgstr "Teller in Rechthoek"
-
-#: sflb-options.php:169
-msgid "Default is Standard."
-msgstr "Standaardwaarde is Standaard."
-
-#: sflb-options.php:173
-msgid "Width:"
-msgstr "Breedte:"
-
-#: sflb-options.php:176
-msgid "Default/Minimum for Standard = 450, Button Count = 90, Box Count = 55."
-msgstr "Standaard/Minimum waarde for Standaard = 450, Teller als Knop = 90, Teller in Rechthoek = 55."
-
-#: sflb-options.php:180
-msgid "Show Faces:"
-msgstr "Gezichten Weergeven:"
-
-#: sflb-options.php:186
-msgid "Display Facebook profile pictures of people who liked your product."
-msgstr "Geef de Profiel foto weer van personen die je product leuk vinden."
-
-#: sflb-options.php:191
-msgid "Action:"
-msgstr "Actie:"
-
-#: sflb-options.php:194
-msgid "Like"
-msgstr "Vind ik leuk"
-
-#: sflb-options.php:195
-msgid "Recommend"
-msgstr "Aanbevelen"
-
-#: sflb-options.php:197
-msgid "Specify the verb you want to display."
-msgstr "Specificeer welke term je wilt weergeven."
-
-#: sflb-options.php:201
-msgid "Font:"
-msgstr "Lettertype:"
-
-#: sflb-options.php:204
-msgid "Arial"
-msgstr "Arial"
-
-#: sflb-options.php:205
-msgid "Lucida Grande"
-msgstr "Lucida Grande"
-
-#: sflb-options.php:206
-msgid "Segoe ui"
-msgstr "Segoe ui"
-
-#: sflb-options.php:207
-msgid "Tahoma"
-msgstr "Tahoma"
-
-#: sflb-options.php:208
-msgid "Trebuchet ms"
-msgstr "Trebuchet ms"
-
-#: sflb-options.php:209
-msgid "Verdana"
-msgstr "Verdana"
-
-#: sflb-options.php:211
-msgid "Specify the font you want to use."
-msgstr "Selecteer het gewenste lettertype."
-
-#: sflb-options.php:215
-msgid "Colorscheme:"
-msgstr "Kleurenschema:"
-
-#: sflb-options.php:218
-msgid "Light"
-msgstr "Licht"
-
-#: sflb-options.php:219
-msgid "Dark"
-msgstr "Donker"
-
-#: sflb-options.php:221
-msgid "Select the colorscheme you want to use. Default is Light."
-msgstr "Selecteer het gewenste kleurenschema. Standaardwaarde is Licht."
-
-#: sflb-options.php:225
-msgid "Referrer:"
-msgstr "Verwijzing:"
-
-#: sflb-options.php:228
-msgid "Optional. Max. 50 characters."
-msgstr "Optioneel. Max 50 tekens."
-
-#: sflb-options.php:232
-msgid "Open Graph Tags"
-msgstr "Open Graph Tags"
-
-#: sflb-options.php:232
-msgid "If you want to use 'Open Graph Tags', you need to specify all *-marked fields."
-msgstr "Om 'Open Graph Tags' te kunnen gebruiken, dien je alle *-gemarkeerde velden in te vullen."
-
-#: sflb-options.php:235
-msgid "Type"
-msgstr "Soort"
-
-#: sflb-options.php:238
+#: ../includes/settings.php:47
 msgid "Activity"
 msgstr "Activiteit"
 
-#: sflb-options.php:239
+#: ../includes/settings.php:48
 msgid "Actor"
 msgstr "Acteur"
 
-#: sflb-options.php:240
+#: ../includes/settings.php:49
 msgid "Album"
 msgstr "Album"
 
-#: sflb-options.php:241
+#: ../includes/settings.php:50
 msgid "Article"
 msgstr "Artikel"
 
-#: sflb-options.php:242
+#: ../includes/settings.php:51
 msgid "Athlete"
 msgstr "Atleet"
 
-#: sflb-options.php:243
+#: ../includes/settings.php:52
 msgid "Author"
 msgstr "Schrijver"
 
-#: sflb-options.php:244
+#: ../includes/settings.php:53
 msgid "Band"
 msgstr "Band"
 
-#: sflb-options.php:245
+#: ../includes/settings.php:54
 msgid "Bar"
 msgstr "Bar"
 
-#: sflb-options.php:246
+#: ../includes/settings.php:55
 msgid "Blog"
 msgstr "Blog"
 
-#: sflb-options.php:247
+#: ../includes/settings.php:56
 msgid "Book"
 msgstr "Boek"
 
-#: sflb-options.php:248
+#: ../includes/settings.php:57
 msgid "Cafe"
 msgstr "Café"
 
-#: sflb-options.php:249
+#: ../includes/settings.php:58
 msgid "Cause"
 msgstr "Goed Doel"
 
-#: sflb-options.php:250
+#: ../includes/settings.php:59
 msgid "City"
 msgstr "Stad"
 
-#: sflb-options.php:251
+#: ../includes/settings.php:60
 msgid "Company"
 msgstr "Bedrijf"
 
-#: sflb-options.php:252
+#: ../includes/settings.php:61
 msgid "Country"
 msgstr "Land"
 
-#: sflb-options.php:253
+#: ../includes/settings.php:62
 msgid "Director"
 msgstr "Regisseur"
 
-#: sflb-options.php:254
+#: ../includes/settings.php:63
 msgid "Drink"
 msgstr "Drank"
 
-#: sflb-options.php:255
+#: ../includes/settings.php:64
 msgid "Food"
 msgstr "Eten"
 
-#: sflb-options.php:256
+#: ../includes/settings.php:65
 msgid "Game"
 msgstr "Spel"
 
-#: sflb-options.php:257
+#: ../includes/settings.php:66
 msgid "Government"
 msgstr "Overheid"
 
-#: sflb-options.php:258
+#: ../includes/settings.php:67
 msgid "Hotel"
 msgstr "Hotel"
 
-#: sflb-options.php:259
+#: ../includes/settings.php:68
 msgid "Landmark"
 msgstr "Gebeurtenis"
 
-#: sflb-options.php:260
+#: ../includes/settings.php:69
 msgid "Movie"
 msgstr "Film"
 
-#: sflb-options.php:261
+#: ../includes/settings.php:70
 msgid "Musician"
 msgstr "Muzikant"
 
-#: sflb-options.php:262
+#: ../includes/settings.php:71
 msgid "Non Profit"
 msgstr "Non Profit"
 
-#: sflb-options.php:263
+#: ../includes/settings.php:72
 msgid "Politician"
 msgstr "Politicus"
 
-#: sflb-options.php:264
+#: ../includes/settings.php:73
 msgid "Product"
 msgstr "Product"
 
-#: sflb-options.php:265
+#: ../includes/settings.php:74
 msgid "Public Figure"
 msgstr "Publiek Figuur"
 
-#: sflb-options.php:266
+#: ../includes/settings.php:75
 msgid "Restaurant"
 msgstr "Restaurant"
 
-#: sflb-options.php:267
+#: ../includes/settings.php:76
 msgid "School"
 msgstr "School"
 
-#: sflb-options.php:268
+#: ../includes/settings.php:77
 msgid "Song"
 msgstr "Lied"
 
-#: sflb-options.php:269
+#: ../includes/settings.php:78
 msgid "Sport"
 msgstr "Sport"
 
-#: sflb-options.php:270
+#: ../includes/settings.php:79
 msgid "Sports League"
 msgstr "Sport Evenement"
 
-#: sflb-options.php:271
+#: ../includes/settings.php:80
 msgid "Sports Team"
 msgstr "Sportteam"
 
-#: sflb-options.php:272
+#: ../includes/settings.php:81
 msgid "State Province"
 msgstr "Staat Provincie"
 
-#: sflb-options.php:273
+#: ../includes/settings.php:82
 msgid "TV Show"
 msgstr "TV programma"
 
-#: sflb-options.php:274
+#: ../includes/settings.php:83
 msgid "University"
 msgstr "Universiteit"
 
-#: sflb-options.php:275
+#: ../includes/settings.php:84
 msgid "Website"
 msgstr "Website"
 
-#: sflb-options.php:277
+#: ../includes/settings.php:92
+msgid "Share:"
+msgstr "Delen"
+
+#: ../includes/settings.php:95 ../includes/settings.php:138
+msgid "Like"
+msgstr "Vind ik leuk"
+
+#: ../includes/settings.php:96
+msgid "Like and Share"
+msgstr "Like en Delen"
+
+#: ../includes/settings.php:97
+msgid "Share"
+msgstr "Delen"
+
+#: ../includes/settings.php:99
+msgid "Select which button to display."
+msgstr "Specificeer welke knop je wilt weergeven."
+
+#: ../includes/settings.php:103
+msgid "Layout:"
+msgstr "Weergave:"
+
+#: ../includes/settings.php:106
+msgid "Standard"
+msgstr "Standaard"
+
+#: ../includes/settings.php:107
+msgid "Button Count"
+msgstr "Teller in Knop"
+
+#: ../includes/settings.php:108
+msgid "Box Count"
+msgstr "Teller in Rechthoek"
+
+#: ../includes/settings.php:109
+msgid "Button"
+msgstr "Knop"
+
+#: ../includes/settings.php:110
+msgid "Link"
+msgstr "Link"
+
+#: ../includes/settings.php:111
+msgid "Icon Link"
+msgstr "Icoon Link"
+
+#: ../includes/settings.php:112
+msgid "Icon"
+msgstr "Icoon"
+
+#: ../includes/settings.php:114
+msgid "Default for Like is Standard. Default for Share is Icon Link."
+msgstr ""
+"Standaard waarde voor Like is Standaard. Standaard waarde voor Delen is "
+"Icoon Link."
+
+#: ../includes/settings.php:118
+msgid "Width:"
+msgstr "Breedte:"
+
+#: ../includes/settings.php:121
+msgid ""
+"Minimum for Standard = 450, Button Count = 90, Box Count = 55, Button = 47."
+msgstr ""
+"Minimum waarde for Standaard = 450, Teller in Knop = 90, Teller in Rechthoek "
+"= 55, Knop = 47."
+
+#: ../includes/settings.php:125
+msgid "Show Faces:"
+msgstr "Gezichten Weergeven:"
+
+#: ../includes/settings.php:128 ../includes/settings.php:172
+msgid "No"
+msgstr "Nee"
+
+#: ../includes/settings.php:129 ../includes/settings.php:173
+msgid "Yes"
+msgstr "Ja"
+
+#: ../includes/settings.php:131
+msgid "Display Facebook profile pictures of people who liked your product."
+msgstr "Geef de Profiel foto weer van personen die je product leuk vinden."
+
+#: ../includes/settings.php:135
+msgid "Action:"
+msgstr "Actie:"
+
+#: ../includes/settings.php:139
+msgid "Recommend"
+msgstr "Aanbevelen"
+
+#: ../includes/settings.php:141
+msgid "Specify the verb you want to display."
+msgstr "Specificeer welke term je wilt weergeven."
+
+#: ../includes/settings.php:145
+msgid "Font:"
+msgstr "Lettertype:"
+
+#: ../includes/settings.php:148
+msgid "Arial"
+msgstr "Arial"
+
+#: ../includes/settings.php:149
+msgid "Lucida Grande"
+msgstr "Lucida Grande"
+
+#: ../includes/settings.php:150
+msgid "Segoe ui"
+msgstr "Segoe ui"
+
+#: ../includes/settings.php:151
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: ../includes/settings.php:152
+msgid "Trebuchet ms"
+msgstr "Trebuchet ms"
+
+#: ../includes/settings.php:153
+msgid "Verdana"
+msgstr "Verdana"
+
+#: ../includes/settings.php:155
+msgid "Specify the font you want to use."
+msgstr "Selecteer het gewenste lettertype."
+
+#: ../includes/settings.php:159
+msgid "Colorscheme:"
+msgstr "Kleurenschema:"
+
+#: ../includes/settings.php:162
+msgid "Light"
+msgstr "Licht"
+
+#: ../includes/settings.php:163
+msgid "Dark"
+msgstr "Donker"
+
+#: ../includes/settings.php:165
+msgid "Select the colorscheme of your website. Default is Light."
+msgstr "Selecteer het kleurschema van je website. Standaardwaarde is Licht."
+
+#: ../includes/settings.php:169
+msgid "Kid Directed Content:"
+msgstr "Gericht op kinderen"
+
+#: ../includes/settings.php:175
+msgid ""
+"Your web site or online service, or a portion of your service, is directed "
+"to children under 13. Default is No."
+msgstr ""
+"Je website/service of gedeelte daarvan is gericht op kinderen jonger dan 13 "
+"jaar. Standaard is Nee."
+
+#: ../includes/settings.php:179
+msgid "Tracking Referral:"
+msgstr "Verwijzing"
+
+#: ../includes/settings.php:182
+msgid "Optional. Max. 50 characters."
+msgstr "Optioneel. Max 50 tekens."
+
+#: ../includes/settings.php:186
+msgid "Open Graph Tags"
+msgstr "Open Graph Tags"
+
+#: ../includes/settings.php:186
+msgid ""
+"If you want to use 'Open Graph Tags', you need to specify all *-marked "
+"fields."
+msgstr ""
+"Om 'Open Graph Tags' te kunnen gebruiken, dien je alle *-gemarkeerde velden "
+"in te vullen."
+
+#: ../includes/settings.php:189
+msgid "Type"
+msgstr "Soort"
+
+#: ../includes/settings.php:201
 msgid "Chose a type. Default is 'product'."
 msgstr "Maak een keuze. Standaardwaarde is Product."
 
-#: sflb-options.php:281
+#: ../includes/settings.php:205
 msgid "Size of Image:"
 msgstr "Grootte van afbeelding:"
 
-#: sflb-options.php:284
+#: ../includes/settings.php:208
 msgid "Specify the size of the image to use. Default is 96, minimum is 50."
-msgstr "Specificeer de grootte van de te gebruiken afbeelding. Standaardwaarde is 96, Minimum is 50."
+msgstr ""
+"Specificeer de grootte van de te gebruiken afbeelding. Standaardwaarde is "
+"96, Minimum is 50."
 
-#: sflb-options.php:288
+#: ../includes/settings.php:212
 msgid "Type of ID"
 msgstr "Soort ID"
 
-#: sflb-options.php:291
+#: ../includes/settings.php:215
 msgid "Facebook ID"
 msgstr "Facebook ID"
 
-#: sflb-options.php:292
+#: ../includes/settings.php:216
 msgid "Facebook Platform application ID"
 msgstr "Facebook Platform application ID"
 
-#: sflb-options.php:294
+#: ../includes/settings.php:218
 msgid "Default is Facebook ID."
 msgstr "Standaardwaarde is Facebook ID."
 
-#: sflb-options.php:298
+#: ../includes/settings.php:222
 msgid "ID-number(s)"
 msgstr "ID-nummer(s)"
 
-#: sflb-options.php:301
+#: ../includes/settings.php:225
 msgid "Comma separate multiple ID's."
 msgstr "Meerdere ID-nummers scheiden door komma."
 
-#: sflb-options.php:306
+#: ../includes/settings.php:230
 msgid "Save Changes"
 msgstr "Wijzigingen Opslaan"
 
+#~ msgid "Some invalid input has been discarded."
+#~ msgstr "Ongeldige waarden zijn overgeslagen."
+
+#~ msgid "Options saved."
+#~ msgstr "Wijzigingen opgeslagen."
+
+#~ msgid "Send:"
+#~ msgstr "Verzenden:"
+
+#~ msgid "Display a Send button next to the Like button."
+#~ msgstr "Plaats een Verzenden knop naast de Vind ik leuk knop."
+
+#~ msgid "Default is Standard."
+#~ msgstr "Standaardwaarde is Standaard."
+
+#~ msgid "Referrer:"
+#~ msgstr "Verwijzing:"

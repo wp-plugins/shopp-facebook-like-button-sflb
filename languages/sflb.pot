@@ -2,356 +2,485 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shopp Facebook Like Button\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-15 13:55+0100\n"
+"POT-Creation-Date: 2015-01-23 21:34+0100\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Shoppforum.com <webmaster@shoppforum.com>\n"
-"Language-Team: Shoppdeveloper.com <support@shoppdeveloper.com>\n"
+"Last-Translator: Shoppdeveloper.com Team <support@shoppdeveloper.com>\n"
+"Language-Team: Shoppdeveloper.com Team <support@shoppdeveloper.com>\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
 
-#: sflb-options.php:135
-msgid "Some invalid input has been discarded."
+#: ../includes/core.php:61
+msgid "Facebook Like settings saved."
 msgstr ""
 
-#: sflb-options.php:139
-msgid "Options saved."
+#: ../includes/mainscreen.php:36
+msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: sflb-options.php:146
+#: ../includes/mainscreen.php:40
+msgid "Shoppdeveloper.com - Main Plugin Page"
+msgstr ""
+
+#: ../includes/mainscreen.php:44
+msgid "Introduction:"
+msgstr ""
+
+#: ../includes/mainscreen.php:46
+msgid "The Shopp Extra menu facilitates plugins created by"
+msgstr ""
+
+#: ../includes/mainscreen.php:47
+msgid "We'd love to hear what you like or don't like about our plugins"
+msgstr ""
+
+#: ../includes/mainscreen.php:48
+msgid "What works and what doesn't"
+msgstr ""
+
+#: ../includes/mainscreen.php:50
+msgid "Thanks in advance"
+msgstr ""
+
+#: ../includes/other_plugins.php:3
+msgid "Plugins developed so far:"
+msgstr ""
+
+#: ../includes/other_plugins.php:5
+msgid "Shopp Variations to Images"
+msgstr ""
+
+#: ../includes/other_plugins.php:6
+msgid ""
+"This plugin will enhance your customer's shop experience by adjusting the "
+"product image to the variation of their choice"
+msgstr ""
+
+#: ../includes/other_plugins.php:7
+msgid ""
+"For example, when selecting a different print, or color, or model, the "
+"product image would adjust to show that print, or color, or model"
+msgstr ""
+
+#: ../includes/other_plugins.php:9
+msgid "Shopp Bulk Price Editor"
+msgstr ""
+
+#: ../includes/other_plugins.php:10
+msgid "Change the price of multiple products at once"
+msgstr ""
+
+#: ../includes/other_plugins.php:11
+msgid ""
+"For example, increase all product prices in a certain category with a "
+"certain amount, or percentage"
+msgstr ""
+
+#: ../includes/other_plugins.php:13
+msgid "Shopp Bulk Product Importer"
+msgstr ""
+
+#: ../includes/other_plugins.php:14
+msgid "Import products from a CSV file"
+msgstr ""
+
+#: ../includes/other_plugins.php:16
+msgid "Shopp Cleaner"
+msgstr ""
+
+#: ../includes/other_plugins.php:17
+msgid ""
+"Cleanup data left behind by deleted products. Or start from scratch, remove "
+"all products, categories, tags but leave orders and customer data untouched."
+msgstr ""
+
+#: ../includes/other_plugins.php:19
+msgid "Shopp Payment Add-on Mollie"
+msgstr ""
+
+#: ../includes/other_plugins.php:20
+msgid ""
+"For Dutch merchants. Add the features of the new Mollie API to your shop"
+msgstr ""
+
+#: ../includes/other_plugins.php:21
+msgid ""
+"Accept Bancontact/Mister Cash, Bitcoin, Creditcard, iDEAL, Banktransfer, "
+"PayPal, paysafecard, and Sofort Banking payments"
+msgstr ""
+
+#: ../includes/settings.php:11
 msgid "Shopp Facebook Like Button (sflb) Settings"
 msgstr ""
 
-#: sflb-options.php:152
-msgid "Send:"
-msgstr ""
-
-#: sflb-options.php:155
-#: sflb-options.php:183
-msgid "No"
-msgstr ""
-
-#: sflb-options.php:156
-#: sflb-options.php:184
-msgid "Yes"
-msgstr ""
-
-#: sflb-options.php:158
-msgid "Display a Send button next to the Like button."
-msgstr ""
-
-#: sflb-options.php:162
-msgid "Layout:"
-msgstr ""
-
-#: sflb-options.php:165
-msgid "Standard"
-msgstr ""
-
-#: sflb-options.php:166
-msgid "Button Count"
-msgstr ""
-
-#: sflb-options.php:167
-msgid "Box Count"
-msgstr ""
-
-#: sflb-options.php:169
-msgid "Default is Standard."
-msgstr ""
-
-#: sflb-options.php:173
-msgid "Width:"
-msgstr ""
-
-#: sflb-options.php:176
-msgid "Default/Minimum for Standard = 450, Button Count = 90, Box Count = 55."
-msgstr ""
-
-#: sflb-options.php:180
-msgid "Show Faces:"
-msgstr ""
-
-#: sflb-options.php:186
-msgid "Display Facebook profile pictures of people who liked your product."
-msgstr ""
-
-#: sflb-options.php:191
-msgid "Action:"
-msgstr ""
-
-#: sflb-options.php:194
-msgid "Like"
-msgstr ""
-
-#: sflb-options.php:195
-msgid "Recommend"
-msgstr ""
-
-#: sflb-options.php:197
-msgid "Specify the verb you want to display."
-msgstr ""
-
-#: sflb-options.php:201
-msgid "Font:"
-msgstr ""
-
-#: sflb-options.php:204
-msgid "Arial"
-msgstr ""
-
-#: sflb-options.php:205
-msgid "Lucida Grande"
-msgstr ""
-
-#: sflb-options.php:206
-msgid "Segoe ui"
-msgstr ""
-
-#: sflb-options.php:207
-msgid "Tahoma"
-msgstr ""
-
-#: sflb-options.php:208
-msgid "Trebuchet ms"
-msgstr ""
-
-#: sflb-options.php:209
-msgid "Verdana"
-msgstr ""
-
-#: sflb-options.php:211
-msgid "Specify the font you want to use."
-msgstr ""
-
-#: sflb-options.php:215
-msgid "Colorscheme:"
-msgstr ""
-
-#: sflb-options.php:218
-msgid "Light"
-msgstr ""
-
-#: sflb-options.php:219
-msgid "Dark"
-msgstr ""
-
-#: sflb-options.php:221
-msgid "Select the colorscheme you want to use. Default is Light."
-msgstr ""
-
-#: sflb-options.php:225
-msgid "Referrer:"
-msgstr ""
-
-#: sflb-options.php:228
-msgid "Optional. Max. 50 characters."
-msgstr ""
-
-#: sflb-options.php:232
-msgid "Open Graph Tags"
-msgstr ""
-
-#: sflb-options.php:232
-msgid "If you want to use 'Open Graph Tags', you need to specify all *-marked fields."
-msgstr ""
-
-#: sflb-options.php:235
-msgid "Type"
-msgstr ""
-
-#: sflb-options.php:238
+#: ../includes/settings.php:47
 msgid "Activity"
 msgstr ""
 
-#: sflb-options.php:239
+#: ../includes/settings.php:48
 msgid "Actor"
 msgstr ""
 
-#: sflb-options.php:240
+#: ../includes/settings.php:49
 msgid "Album"
 msgstr ""
 
-#: sflb-options.php:241
+#: ../includes/settings.php:50
 msgid "Article"
 msgstr ""
 
-#: sflb-options.php:242
+#: ../includes/settings.php:51
 msgid "Athlete"
 msgstr ""
 
-#: sflb-options.php:243
+#: ../includes/settings.php:52
 msgid "Author"
 msgstr ""
 
-#: sflb-options.php:244
+#: ../includes/settings.php:53
 msgid "Band"
 msgstr ""
 
-#: sflb-options.php:245
+#: ../includes/settings.php:54
 msgid "Bar"
 msgstr ""
 
-#: sflb-options.php:246
+#: ../includes/settings.php:55
 msgid "Blog"
 msgstr ""
 
-#: sflb-options.php:247
+#: ../includes/settings.php:56
 msgid "Book"
 msgstr ""
 
-#: sflb-options.php:248
+#: ../includes/settings.php:57
 msgid "Cafe"
 msgstr ""
 
-#: sflb-options.php:249
+#: ../includes/settings.php:58
 msgid "Cause"
 msgstr ""
 
-#: sflb-options.php:250
+#: ../includes/settings.php:59
 msgid "City"
 msgstr ""
 
-#: sflb-options.php:251
+#: ../includes/settings.php:60
 msgid "Company"
 msgstr ""
 
-#: sflb-options.php:252
+#: ../includes/settings.php:61
 msgid "Country"
 msgstr ""
 
-#: sflb-options.php:253
+#: ../includes/settings.php:62
 msgid "Director"
 msgstr ""
 
-#: sflb-options.php:254
+#: ../includes/settings.php:63
 msgid "Drink"
 msgstr ""
 
-#: sflb-options.php:255
+#: ../includes/settings.php:64
 msgid "Food"
 msgstr ""
 
-#: sflb-options.php:256
+#: ../includes/settings.php:65
 msgid "Game"
 msgstr ""
 
-#: sflb-options.php:257
+#: ../includes/settings.php:66
 msgid "Government"
 msgstr ""
 
-#: sflb-options.php:258
+#: ../includes/settings.php:67
 msgid "Hotel"
 msgstr ""
 
-#: sflb-options.php:259
+#: ../includes/settings.php:68
 msgid "Landmark"
 msgstr ""
 
-#: sflb-options.php:260
+#: ../includes/settings.php:69
 msgid "Movie"
 msgstr ""
 
-#: sflb-options.php:261
+#: ../includes/settings.php:70
 msgid "Musician"
 msgstr ""
 
-#: sflb-options.php:262
+#: ../includes/settings.php:71
 msgid "Non Profit"
 msgstr ""
 
-#: sflb-options.php:263
+#: ../includes/settings.php:72
 msgid "Politician"
 msgstr ""
 
-#: sflb-options.php:264
+#: ../includes/settings.php:73
 msgid "Product"
 msgstr ""
 
-#: sflb-options.php:265
+#: ../includes/settings.php:74
 msgid "Public Figure"
 msgstr ""
 
-#: sflb-options.php:266
+#: ../includes/settings.php:75
 msgid "Restaurant"
 msgstr ""
 
-#: sflb-options.php:267
+#: ../includes/settings.php:76
 msgid "School"
 msgstr ""
 
-#: sflb-options.php:268
+#: ../includes/settings.php:77
 msgid "Song"
 msgstr ""
 
-#: sflb-options.php:269
+#: ../includes/settings.php:78
 msgid "Sport"
 msgstr ""
 
-#: sflb-options.php:270
+#: ../includes/settings.php:79
 msgid "Sports League"
 msgstr ""
 
-#: sflb-options.php:271
+#: ../includes/settings.php:80
 msgid "Sports Team"
 msgstr ""
 
-#: sflb-options.php:272
+#: ../includes/settings.php:81
 msgid "State Province"
 msgstr ""
 
-#: sflb-options.php:273
+#: ../includes/settings.php:82
 msgid "TV Show"
 msgstr ""
 
-#: sflb-options.php:274
+#: ../includes/settings.php:83
 msgid "University"
 msgstr ""
 
-#: sflb-options.php:275
+#: ../includes/settings.php:84
 msgid "Website"
 msgstr ""
 
-#: sflb-options.php:277
+#: ../includes/settings.php:92
+msgid "Share:"
+msgstr ""
+
+#: ../includes/settings.php:95 ../includes/settings.php:138
+msgid "Like"
+msgstr ""
+
+#: ../includes/settings.php:96
+msgid "Like and Share"
+msgstr ""
+
+#: ../includes/settings.php:97
+msgid "Share"
+msgstr ""
+
+#: ../includes/settings.php:99
+msgid "Select which button to display."
+msgstr ""
+
+#: ../includes/settings.php:103
+msgid "Layout:"
+msgstr ""
+
+#: ../includes/settings.php:106
+msgid "Standard"
+msgstr ""
+
+#: ../includes/settings.php:107
+msgid "Button Count"
+msgstr ""
+
+#: ../includes/settings.php:108
+msgid "Box Count"
+msgstr ""
+
+#: ../includes/settings.php:109
+msgid "Button"
+msgstr ""
+
+#: ../includes/settings.php:110
+msgid "Link"
+msgstr ""
+
+#: ../includes/settings.php:111
+msgid "Icon Link"
+msgstr ""
+
+#: ../includes/settings.php:112
+msgid "Icon"
+msgstr ""
+
+#: ../includes/settings.php:114
+msgid "Default for Like is Standard. Default for Share is Icon Link."
+msgstr ""
+
+#: ../includes/settings.php:118
+msgid "Width:"
+msgstr ""
+
+#: ../includes/settings.php:121
+msgid ""
+"Minimum for Standard = 450, Button Count = 90, Box Count = 55, Button = 47."
+msgstr ""
+
+#: ../includes/settings.php:125
+msgid "Show Faces:"
+msgstr ""
+
+#: ../includes/settings.php:128 ../includes/settings.php:172
+msgid "No"
+msgstr ""
+
+#: ../includes/settings.php:129 ../includes/settings.php:173
+msgid "Yes"
+msgstr ""
+
+#: ../includes/settings.php:131
+msgid "Display Facebook profile pictures of people who liked your product."
+msgstr ""
+
+#: ../includes/settings.php:135
+msgid "Action:"
+msgstr ""
+
+#: ../includes/settings.php:139
+msgid "Recommend"
+msgstr ""
+
+#: ../includes/settings.php:141
+msgid "Specify the verb you want to display."
+msgstr ""
+
+#: ../includes/settings.php:145
+msgid "Font:"
+msgstr ""
+
+#: ../includes/settings.php:148
+msgid "Arial"
+msgstr ""
+
+#: ../includes/settings.php:149
+msgid "Lucida Grande"
+msgstr ""
+
+#: ../includes/settings.php:150
+msgid "Segoe ui"
+msgstr ""
+
+#: ../includes/settings.php:151
+msgid "Tahoma"
+msgstr ""
+
+#: ../includes/settings.php:152
+msgid "Trebuchet ms"
+msgstr ""
+
+#: ../includes/settings.php:153
+msgid "Verdana"
+msgstr ""
+
+#: ../includes/settings.php:155
+msgid "Specify the font you want to use."
+msgstr ""
+
+#: ../includes/settings.php:159
+msgid "Colorscheme:"
+msgstr ""
+
+#: ../includes/settings.php:162
+msgid "Light"
+msgstr ""
+
+#: ../includes/settings.php:163
+msgid "Dark"
+msgstr ""
+
+#: ../includes/settings.php:165
+msgid "Select the colorscheme of your website. Default is Light."
+msgstr ""
+
+#: ../includes/settings.php:169
+msgid "Kid Directed Content:"
+msgstr ""
+
+#: ../includes/settings.php:175
+msgid ""
+"Your web site or online service, or a portion of your service, is directed "
+"to children under 13. Default is No."
+msgstr ""
+
+#: ../includes/settings.php:179
+msgid "Tracking Referral:"
+msgstr ""
+
+#: ../includes/settings.php:182
+msgid "Optional. Max. 50 characters."
+msgstr ""
+
+#: ../includes/settings.php:186
+msgid "Open Graph Tags"
+msgstr ""
+
+#: ../includes/settings.php:186
+msgid ""
+"If you want to use 'Open Graph Tags', you need to specify all *-marked "
+"fields."
+msgstr ""
+
+#: ../includes/settings.php:189
+msgid "Type"
+msgstr ""
+
+#: ../includes/settings.php:201
 msgid "Chose a type. Default is 'product'."
 msgstr ""
 
-#: sflb-options.php:281
+#: ../includes/settings.php:205
 msgid "Size of Image:"
 msgstr ""
 
-#: sflb-options.php:284
+#: ../includes/settings.php:208
 msgid "Specify the size of the image to use. Default is 96, minimum is 50."
 msgstr ""
 
-#: sflb-options.php:288
+#: ../includes/settings.php:212
 msgid "Type of ID"
 msgstr ""
 
-#: sflb-options.php:291
+#: ../includes/settings.php:215
 msgid "Facebook ID"
 msgstr ""
 
-#: sflb-options.php:292
+#: ../includes/settings.php:216
 msgid "Facebook Platform application ID"
 msgstr ""
 
-#: sflb-options.php:294
+#: ../includes/settings.php:218
 msgid "Default is Facebook ID."
 msgstr ""
 
-#: sflb-options.php:298
+#: ../includes/settings.php:222
 msgid "ID-number(s)"
 msgstr ""
 
-#: sflb-options.php:301
+#: ../includes/settings.php:225
 msgid "Comma separate multiple ID's."
 msgstr ""
 
-#: sflb-options.php:306
+#: ../includes/settings.php:230
 msgid "Save Changes"
 msgstr ""
-
