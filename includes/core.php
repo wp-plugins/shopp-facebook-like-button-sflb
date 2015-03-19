@@ -80,11 +80,15 @@ class ShoppFacebook {
 	function convert_old_settings( $args) {
 		//convert settings from prior versions to Shopp settings
 		foreach ($args as $key => $value) {
+
 			if ( 'send' == $key ) {
 				$key = 'share';
+
 				if ( 'false' == $value ) $value = 'like';
+
 				if ( 'true' == $value ) $value = 'likeshare';
 			}
+
 			shopp_set_setting( 'sflb_'.$key, $value);
 		}
 	}
@@ -95,10 +99,9 @@ class ShoppFacebook {
 					WHERE name LIKE 'sflb_%'";
 		$result = sDB::query($query, 'array');
 
-		if ( ! $result ) return;
-
 		$options = array();
-		foreach ( $result as $option ) $options[str_replace('sflb_', '', $option->name)] = $option->value;
+
+		if ( ! empty($result) ) foreach ( $result as $option ) $options[str_replace('sflb_', '', $option->name)] = $option->value;
 
 		$results = array_merge($this->defaults, $options);
 

@@ -96,7 +96,8 @@
 							<option value="likeshare" <?php echo ( 'likeshare' == $this->share ) ? 'selected' : ''; ?> /><?php _e( 'Like and Share', 'sflb'); ?></option>
 							<option value="share" <?php echo ( 'share' == $this->share ) ? 'selected' : ''; ?> /><?php _e( 'Share', 'sflb'); ?></option>
 						</select>
-						<?php _e('Select which button to display.','sflb'); ?>
+						<br />
+						<small><?php _e('Select which button to display.','sflb'); ?></small>
 					</td>
 				</tr>
 				<tr>
@@ -111,14 +112,16 @@
 							<option value="icon_link" <?php echo ( 'icon_link' == $this->layout ) ? 'selected' : ''; ?> <?php echo ( 'share' != $this->share ) ? 'disabled' : ''; ?> /><?php _e( 'Icon Link', 'sflb'); ?></option>
 							<option value="icon" <?php echo ( 'icon' == $this->layout ) ? 'selected' : ''; ?> <?php echo ( 'share' != $this->share ) ? 'disabled' : ''; ?> /><?php _e( 'Icon', 'sflb'); ?></option>
 						</select>
-						<?php _e( 'Default for Like is Standard. Default for Share is Icon Link.','sflb' );?>
+						<br />
+						<small><?php _e( 'Default for Like is Standard. Default for Share is Icon Link.','sflb' );?></small>
 					</td>
 				</tr>
 				<tr>
 					<th scope="row" valign="top"><label for="width"><?php _e( 'Width:','sflb'); ?></label></th>
 					<td>
 						<input type="text" name="settings[sflb_width]" id="sflb_width" size="3" value="<?php echo $this->width; ?>" />
-						<?php _e( 'Minimum for Standard = 450, Button Count = 90, Box Count = 55, Button = 47.','sflb' );?>
+						<br />
+						<small><?php _e( 'Minimum for Standard = 450, Button Count = 90, Box Count = 55, Button = 47.','sflb' );?></small>
 					</td>
 				</tr>
 				<tr>
@@ -128,7 +131,8 @@
 							<option  value="false" <?php echo ( 'false' == $this->show_faces ) ? 'selected' : ''; ?> /><?php _e( 'No', 'sflb');?></option>  
 							<option value="true" <?php echo ( 'true' == $this->show_faces ) ? 'selected' : ''; ?> /><?php _e( 'Yes', 'sflb'); ?></option>
 						</select>
-						<?php _e('Display Facebook profile pictures of people who liked your product.','sflb'); ?>
+						<br />
+						<small><?php _e('Display Facebook profile pictures of people who liked your product.','sflb'); ?></small>
 					</td>
 				</tr>
 				<tr>
@@ -138,7 +142,8 @@
 							<option value="like" <?php echo ( 'like' == $this->action ) ? 'selected' : ''; ?> /><?php _e( 'Like', 'sflb');?></option> 
 							<option value="recommend" <?php echo ( 'recommend' == $this->action ) ? 'selected' : ''; ?> /><?php _e( 'Recommend', 'sflb'); ?></option>
 						</select>
-						<?php _e('Specify the verb you want to display.','sflb'); ?>
+						<br />
+						<small><?php _e('Specify the verb you want to display.','sflb'); ?></small>
 					</td>
 				</tr>
 				<tr>
@@ -152,7 +157,8 @@
 							<option value="trebuchet ms" <?php echo ( 'trebuchet ms' == $this->font ) ? 'selected' : ''; ?> /><?php _e( 'Trebuchet ms', 'sflb'); ?></option>
 							<option value="verdana" <?php echo ( 'verdana' == $this->font ) ? 'selected' : ''; ?> /><?php _e( 'Verdana', 'sflb'); ?></option> 
 						</select>
-						<?php _e( "Specify the font you want to use.",'sflb'); ?>
+						<br />
+						<small><?php _e( "Specify the font you want to use.",'sflb'); ?></small>
 					</td>
 				</tr>
 				<tr>
@@ -162,7 +168,8 @@
 							<option value="light" <?php echo ( 'light' == $this->colorscheme ) ? 'selected' : ''; ?> /><?php _e( 'Light', 'sflb');?></option> 
 							<option value="dark" <?php echo ( 'dark' == $this->colorscheme ) ? 'selected' : ''; ?> /><?php _e( 'Dark', 'sflb'); ?></option>
 						</select>
-						<?php _e( 'Select the colorscheme of your website. Default is Light.','sflb' );?>
+						<br />
+						<small><?php _e( 'Select the colorscheme of your website. Default is Light.','sflb' );?></small>
 					</td>
 				</tr>
 				<tr>
@@ -172,14 +179,16 @@
 							<option value="false" <?php echo ( 'false' == $this->kiddirected ) ? 'selected' : ''; ?> /><?php _e( 'No', 'sflb');?></option> 
 							<option value="true" <?php echo ( 'true' == $this->kiddirected ) ? 'selected' : ''; ?> /><?php _e( 'Yes', 'sflb'); ?></option>
 						</select>
-						<?php _e( 'Your web site or online service, or a portion of your service, is directed to children under 13. Default is No.','sflb' );?>
+						<br />
+						<small><?php _e( 'Your web site or online service, or a portion of your service, is directed to children under 13. Default is No.','sflb' );?></small>
 					</td>
 				</tr>
 				<tr>
 					<th scope="row" valign="top"><label for="ref"><?php _e( 'Tracking Referral:','sflb'); ?></label></th>
 					<td>
             			<input type="text" name="settings[sflb_ref]" id="sflb_ref" value="<?php echo $this->ref; ?>" maxlength="50" />
-						<?php _e('Optional. Max. 50 characters.','sflb'); ?>
+            			<br />
+						<small><?php _e('Optional. Max. 50 characters.','sflb'); ?></small>
 					</td>
 				</tr>
 				<tr>
@@ -198,14 +207,16 @@
 							?>
 
 						</select>
-						<?php _e('Chose a type. Default is \'product\'.','sflb'); ?>
+						<br />
+						<small><?php _e('Chose a type. Default is \'product\'.','sflb'); ?></small>
 					</td>
 				</tr>
 				<tr>
 					<th scope="row" valign="top"><label for="og_image_size"><?php _e( 'Size of Image:','sflb'); ?></label></th>
 					<td>
 						<input type="text" name="settings[sflb_og_image_size]" id="sflb_og_image_size" value="<?php echo $this->og_image_size; ?>" size="3"/>
-						<?php _e('Specify the size of the image to use. Default is 96, minimum is 50.','sflb'); ?>
+						<br />
+						<small><?php _e('Specify the size of the image to use. Default is 96, minimum is 50.','sflb'); ?></small>
 					</td>
 				</tr>
 				<tr>
@@ -215,14 +226,16 @@
 							<option value="admins" <?php echo ( 'admins' == $this->og_fb_type ) ? 'selected' : ''; ?> /><?php _e( 'Facebook ID', 'sflb');?></option>  
 							<option value="app_id" <?php echo ( 'app_id' == $this->og_fb_type ) ? 'selected' : ''; ?> /><?php _e( 'Facebook Platform application ID', 'sflb'); ?></option>
 						</select>
-						<?php _e( 'Default is Facebook ID.','sflb' );?>
+						<br />
+						<small><?php _e( 'Default is Facebook ID.','sflb' );?></small>
 					</td>
 				</tr>
 				<tr>
 					<th scope="row" valign="top"><label for="og_fb_id"><?php _e( 'ID-number(s)','sflb'); ?>*:</label></th>
 					<td>
-    					<input type="text" name="settings[sflb_og_fb_id]" id="sflb_og_fb_id" value="<?php echo $this->og_fb_id; ?>" /><br />
-						<?php _e('Comma separate multiple ID\'s.','sflb'); ?>
+    					<input type="text" name="settings[sflb_og_fb_id]" id="sflb_og_fb_id" value="<?php echo $this->og_fb_id; ?>" />
+    					<br />
+						<small><?php _e('Comma separate multiple ID\'s.','sflb'); ?></small>
 					</td>
 				</tr>
 			</tbody>

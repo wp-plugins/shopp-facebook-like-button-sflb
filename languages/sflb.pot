@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shopp Facebook Like Button\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-23 21:34+0100\n"
+"POT-Creation-Date: 2015-03-19 18:02+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Shoppdeveloper.com Team <support@shoppdeveloper.com>\n"
 "Language-Team: Shoppdeveloper.com Team <support@shoppdeveloper.com>\n"
@@ -49,71 +49,89 @@ msgstr ""
 msgid "Thanks in advance"
 msgstr ""
 
-#: ../includes/other_plugins.php:3
+#: ../includes/other_plugins.php:2
 msgid "Plugins developed so far:"
 msgstr ""
 
-#: ../includes/other_plugins.php:5
+#: ../includes/other_plugins.php:4
 msgid "Shopp Variations to Images"
 msgstr ""
 
-#: ../includes/other_plugins.php:6
+#: ../includes/other_plugins.php:5
 msgid ""
 "This plugin will enhance your customer's shop experience by adjusting the "
 "product image to the variation of their choice"
 msgstr ""
 
-#: ../includes/other_plugins.php:7
+#: ../includes/other_plugins.php:6
 msgid ""
 "For example, when selecting a different print, or color, or model, the "
 "product image would adjust to show that print, or color, or model"
 msgstr ""
 
-#: ../includes/other_plugins.php:9
+#: ../includes/other_plugins.php:8
 msgid "Shopp Bulk Price Editor"
 msgstr ""
 
-#: ../includes/other_plugins.php:10
+#: ../includes/other_plugins.php:9
 msgid "Change the price of multiple products at once"
 msgstr ""
 
-#: ../includes/other_plugins.php:11
+#: ../includes/other_plugins.php:10
 msgid ""
 "For example, increase all product prices in a certain category with a "
 "certain amount, or percentage"
 msgstr ""
 
-#: ../includes/other_plugins.php:13
+#: ../includes/other_plugins.php:12
 msgid "Shopp Bulk Product Importer"
 msgstr ""
 
-#: ../includes/other_plugins.php:14
+#: ../includes/other_plugins.php:13
 msgid "Import products from a CSV file"
 msgstr ""
 
+#: ../includes/other_plugins.php:15
+msgid "Shopp Bulk Product Exporter"
+msgstr ""
+
 #: ../includes/other_plugins.php:16
+msgid "Export all product details to a CSV file"
+msgstr ""
+
+#: ../includes/other_plugins.php:18
 msgid "Shopp Cleaner"
 msgstr ""
 
-#: ../includes/other_plugins.php:17
+#: ../includes/other_plugins.php:19
 msgid ""
 "Cleanup data left behind by deleted products. Or start from scratch, remove "
 "all products, categories, tags but leave orders and customer data untouched."
 msgstr ""
 
-#: ../includes/other_plugins.php:19
+#: ../includes/other_plugins.php:21
 msgid "Shopp Payment Add-on Mollie"
 msgstr ""
 
-#: ../includes/other_plugins.php:20
+#: ../includes/other_plugins.php:22
 msgid ""
 "For Dutch merchants. Add the features of the new Mollie API to your shop"
 msgstr ""
 
-#: ../includes/other_plugins.php:21
+#: ../includes/other_plugins.php:23
 msgid ""
 "Accept Bancontact/Mister Cash, Bitcoin, Creditcard, iDEAL, Banktransfer, "
 "PayPal, paysafecard, and Sofort Banking payments"
+msgstr ""
+
+#: ../includes/other_plugins.php:25
+msgid "Shopp Product Page Browser"
+msgstr ""
+
+#: ../includes/other_plugins.php:26
+msgid ""
+"Add the feature to go from one product to the next/previous without having "
+"to go back to the category page first"
 msgstr ""
 
 #: ../includes/settings.php:11
@@ -276,7 +294,7 @@ msgstr ""
 msgid "Share:"
 msgstr ""
 
-#: ../includes/settings.php:95 ../includes/settings.php:138
+#: ../includes/settings.php:95 ../includes/settings.php:142
 msgid "Like"
 msgstr ""
 
@@ -288,199 +306,199 @@ msgstr ""
 msgid "Share"
 msgstr ""
 
-#: ../includes/settings.php:99
+#: ../includes/settings.php:100
 msgid "Select which button to display."
 msgstr ""
 
-#: ../includes/settings.php:103
+#: ../includes/settings.php:104
 msgid "Layout:"
 msgstr ""
 
-#: ../includes/settings.php:106
+#: ../includes/settings.php:107
 msgid "Standard"
 msgstr ""
 
-#: ../includes/settings.php:107
+#: ../includes/settings.php:108
 msgid "Button Count"
 msgstr ""
 
-#: ../includes/settings.php:108
+#: ../includes/settings.php:109
 msgid "Box Count"
 msgstr ""
 
-#: ../includes/settings.php:109
+#: ../includes/settings.php:110
 msgid "Button"
 msgstr ""
 
-#: ../includes/settings.php:110
+#: ../includes/settings.php:111
 msgid "Link"
 msgstr ""
 
-#: ../includes/settings.php:111
+#: ../includes/settings.php:112
 msgid "Icon Link"
 msgstr ""
 
-#: ../includes/settings.php:112
+#: ../includes/settings.php:113
 msgid "Icon"
 msgstr ""
 
-#: ../includes/settings.php:114
+#: ../includes/settings.php:116
 msgid "Default for Like is Standard. Default for Share is Icon Link."
 msgstr ""
 
-#: ../includes/settings.php:118
+#: ../includes/settings.php:120
 msgid "Width:"
 msgstr ""
 
-#: ../includes/settings.php:121
+#: ../includes/settings.php:124
 msgid ""
 "Minimum for Standard = 450, Button Count = 90, Box Count = 55, Button = 47."
 msgstr ""
 
-#: ../includes/settings.php:125
+#: ../includes/settings.php:128
 msgid "Show Faces:"
 msgstr ""
 
-#: ../includes/settings.php:128 ../includes/settings.php:172
+#: ../includes/settings.php:131 ../includes/settings.php:179
 msgid "No"
 msgstr ""
 
-#: ../includes/settings.php:129 ../includes/settings.php:173
+#: ../includes/settings.php:132 ../includes/settings.php:180
 msgid "Yes"
 msgstr ""
 
-#: ../includes/settings.php:131
+#: ../includes/settings.php:135
 msgid "Display Facebook profile pictures of people who liked your product."
 msgstr ""
 
-#: ../includes/settings.php:135
+#: ../includes/settings.php:139
 msgid "Action:"
 msgstr ""
 
-#: ../includes/settings.php:139
+#: ../includes/settings.php:143
 msgid "Recommend"
 msgstr ""
 
-#: ../includes/settings.php:141
+#: ../includes/settings.php:146
 msgid "Specify the verb you want to display."
 msgstr ""
 
-#: ../includes/settings.php:145
+#: ../includes/settings.php:150
 msgid "Font:"
 msgstr ""
 
-#: ../includes/settings.php:148
+#: ../includes/settings.php:153
 msgid "Arial"
 msgstr ""
 
-#: ../includes/settings.php:149
+#: ../includes/settings.php:154
 msgid "Lucida Grande"
 msgstr ""
 
-#: ../includes/settings.php:150
+#: ../includes/settings.php:155
 msgid "Segoe ui"
 msgstr ""
 
-#: ../includes/settings.php:151
+#: ../includes/settings.php:156
 msgid "Tahoma"
 msgstr ""
 
-#: ../includes/settings.php:152
+#: ../includes/settings.php:157
 msgid "Trebuchet ms"
 msgstr ""
 
-#: ../includes/settings.php:153
+#: ../includes/settings.php:158
 msgid "Verdana"
 msgstr ""
 
-#: ../includes/settings.php:155
+#: ../includes/settings.php:161
 msgid "Specify the font you want to use."
 msgstr ""
 
-#: ../includes/settings.php:159
+#: ../includes/settings.php:165
 msgid "Colorscheme:"
 msgstr ""
 
-#: ../includes/settings.php:162
+#: ../includes/settings.php:168
 msgid "Light"
 msgstr ""
 
-#: ../includes/settings.php:163
+#: ../includes/settings.php:169
 msgid "Dark"
 msgstr ""
 
-#: ../includes/settings.php:165
+#: ../includes/settings.php:172
 msgid "Select the colorscheme of your website. Default is Light."
 msgstr ""
 
-#: ../includes/settings.php:169
+#: ../includes/settings.php:176
 msgid "Kid Directed Content:"
 msgstr ""
 
-#: ../includes/settings.php:175
+#: ../includes/settings.php:183
 msgid ""
 "Your web site or online service, or a portion of your service, is directed "
 "to children under 13. Default is No."
 msgstr ""
 
-#: ../includes/settings.php:179
+#: ../includes/settings.php:187
 msgid "Tracking Referral:"
 msgstr ""
 
-#: ../includes/settings.php:182
+#: ../includes/settings.php:191
 msgid "Optional. Max. 50 characters."
 msgstr ""
 
-#: ../includes/settings.php:186
+#: ../includes/settings.php:195
 msgid "Open Graph Tags"
 msgstr ""
 
-#: ../includes/settings.php:186
+#: ../includes/settings.php:195
 msgid ""
 "If you want to use 'Open Graph Tags', you need to specify all *-marked "
 "fields."
 msgstr ""
 
-#: ../includes/settings.php:189
+#: ../includes/settings.php:198
 msgid "Type"
 msgstr ""
 
-#: ../includes/settings.php:201
+#: ../includes/settings.php:211
 msgid "Chose a type. Default is 'product'."
 msgstr ""
 
-#: ../includes/settings.php:205
+#: ../includes/settings.php:215
 msgid "Size of Image:"
 msgstr ""
 
-#: ../includes/settings.php:208
+#: ../includes/settings.php:219
 msgid "Specify the size of the image to use. Default is 96, minimum is 50."
 msgstr ""
 
-#: ../includes/settings.php:212
+#: ../includes/settings.php:223
 msgid "Type of ID"
 msgstr ""
 
-#: ../includes/settings.php:215
+#: ../includes/settings.php:226
 msgid "Facebook ID"
 msgstr ""
 
-#: ../includes/settings.php:216
+#: ../includes/settings.php:227
 msgid "Facebook Platform application ID"
 msgstr ""
 
-#: ../includes/settings.php:218
+#: ../includes/settings.php:230
 msgid "Default is Facebook ID."
 msgstr ""
 
-#: ../includes/settings.php:222
+#: ../includes/settings.php:234
 msgid "ID-number(s)"
 msgstr ""
 
-#: ../includes/settings.php:225
+#: ../includes/settings.php:238
 msgid "Comma separate multiple ID's."
 msgstr ""
 
-#: ../includes/settings.php:230
+#: ../includes/settings.php:243
 msgid "Save Changes"
 msgstr ""

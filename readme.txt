@@ -3,8 +3,11 @@ Contributors: Shoppdeveloper.com
 Donate link: http://www.shoppdeveloper.com/
 Tags: shopp, products, ecommerce, webshop, facebook, like, plugin
 Requires at least: 2.0.2
-Tested up to: 4.0.1
-Stable tag: 1.3
+Tested up to: 4.1.1
+Stable tag: 1.3.1
+Author: Shoppdeveloper.com
+Author URI: http://www.shoppdeveloper.com
+License: GPLv2
 
 Add the Facebook Like-Button to your Shopp product pages. The link on Facebook will link back to the actual product page.
 
@@ -13,9 +16,9 @@ Add the Facebook Like-Button to your Shopp product pages. The link on Facebook w
 With this plugin installed you can supply your customers with the Facebook Like-button. The link provided on Facebook will redirect to the actual product page. When you use Open Graph Tags as well, an image and description will be displayed on Facebook.
 
 Make sure you download the correct version.
-Shopp version 1.1.x - download 1.0
-Shopp version 1.2.x - download 1.2
-Shopp version 1.3.x - download 1.3
+- Shopp version 1.1.x - download 1.0
+- Shopp version 1.2.x - download 1.2
+- Shopp version 1.3.x - download most current
 
 (Older versions can be found in Changelog)
 
@@ -53,15 +56,22 @@ The plugin is in English. Dutch language files are already present. Checkout the
 
 = What version of Shopp do I need? =
 
-This 1.3 version of the plugin has been tested with Shopp 1.3.x. There are two other versions available one for Shopp version 1.1.x and one for Shopp version 1.2.x.
+This 1.3.1 version of the plugin has been tested with Shopp 1.3.x. There are two other versions available one for Shopp version 1.1.x and one for Shopp version 1.2.x.
 
 == Screenshots ==
 
-1. Settings page in Admin Panel
-2. Where the code goes in product.php
-3. What it can look like on the product page of your Shopp webshop. Settings page settings will change the display of the Facebook Like link.
+1. Settings page in Admin Panel (1.0 and 1.2)
+2. Settings page in Admin Panel (1.3.x)
+3. Where the code goes in product.php
+4. What it can look like on the product page of your Shopp webshop. Settings page settings will change the display of the Facebook Like link.
 
 == Changelog ==
+= 1.3.1 =
+Fixed a bug which occured when no settings have been saved
+Adjusted settings page layout
+Added screenshot for 1.3.x
+Adjusted images to WP asset system
+
 = 1.3 =
 New version to work with Shopp 1.3.x. No need to update if you are using a Shopp version prior to Shopp 1.3
 
@@ -75,6 +85,9 @@ First version on WordPress.com SVN
 First version. Ready to go live.
 
 == Upgrade Notice ==
+= 1.3.1 =
+Bug fix for new installs
+
 = 1.3 =
 New version to work with Shopp 1.3.x. No need to update if you are not using the 1.3.x version of Shopp.
 
@@ -83,4 +96,3 @@ New version to work with Shopp 1.2r6 beta. No need to update if you are not usin
 
 = 1.0 =
 First version on WordPress.com SVN 
-
