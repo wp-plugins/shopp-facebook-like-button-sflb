@@ -1,0 +1,486 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopp Facebook Like Button\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-23 21:34+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Shoppdeveloper.com Team <support@shoppdeveloper.com>\n"
+"Language-Team: Shoppdeveloper.com Team <support@shoppdeveloper.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../includes/core.php:61
+msgid "Facebook Like settings saved."
+msgstr ""
+
+#: ../includes/mainscreen.php:36
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../includes/mainscreen.php:40
+msgid "Shoppdeveloper.com - Main Plugin Page"
+msgstr ""
+
+#: ../includes/mainscreen.php:44
+msgid "Introduction:"
+msgstr ""
+
+#: ../includes/mainscreen.php:46
+msgid "The Shopp Extra menu facilitates plugins created by"
+msgstr ""
+
+#: ../includes/mainscreen.php:47
+msgid "We'd love to hear what you like or don't like about our plugins"
+msgstr ""
+
+#: ../includes/mainscreen.php:48
+msgid "What works and what doesn't"
+msgstr ""
+
+#: ../includes/mainscreen.php:50
+msgid "Thanks in advance"
+msgstr ""
+
+#: ../includes/other_plugins.php:3
+msgid "Plugins developed so far:"
+msgstr ""
+
+#: ../includes/other_plugins.php:5
+msgid "Shopp Variations to Images"
+msgstr ""
+
+#: ../includes/other_plugins.php:6
+msgid ""
+"This plugin will enhance your customer's shop experience by adjusting the "
+"product image to the variation of their choice"
+msgstr ""
+
+#: ../includes/other_plugins.php:7
+msgid ""
+"For example, when selecting a different print, or color, or model, the "
+"product image would adjust to show that print, or color, or model"
+msgstr ""
+
+#: ../includes/other_plugins.php:9
+msgid "Shopp Bulk Price Editor"
+msgstr ""
+
+#: ../includes/other_plugins.php:10
+msgid "Change the price of multiple products at once"
+msgstr ""
+
+#: ../includes/other_plugins.php:11
+msgid ""
+"For example, increase all product prices in a certain category with a "
+"certain amount, or percentage"
+msgstr ""
+
+#: ../includes/other_plugins.php:13
+msgid "Shopp Bulk Product Importer"
+msgstr ""
+
+#: ../includes/other_plugins.php:14
+msgid "Import products from a CSV file"
+msgstr ""
+
+#: ../includes/other_plugins.php:16
+msgid "Shopp Cleaner"
+msgstr ""
+
+#: ../includes/other_plugins.php:17
+msgid ""
+"Cleanup data left behind by deleted products. Or start from scratch, remove "
+"all products, categories, tags but leave orders and customer data untouched."
+msgstr ""
+
+#: ../includes/other_plugins.php:19
+msgid "Shopp Payment Add-on Mollie"
+msgstr ""
+
+#: ../includes/other_plugins.php:20
+msgid ""
+"For Dutch merchants. Add the features of the new Mollie API to your shop"
+msgstr ""
+
+#: ../includes/other_plugins.php:21
+msgid ""
+"Accept Bancontact/Mister Cash, Bitcoin, Creditcard, iDEAL, Banktransfer, "
+"PayPal, paysafecard, and Sofort Banking payments"
+msgstr ""
+
+#: ../includes/settings.php:11
+msgid "Shopp Facebook Like Button (sflb) Settings"
+msgstr ""
+
+#: ../includes/settings.php:47
+msgid "Activity"
+msgstr ""
+
+#: ../includes/settings.php:48
+msgid "Actor"
+msgstr ""
+
+#: ../includes/settings.php:49
+msgid "Album"
+msgstr ""
+
+#: ../includes/settings.php:50
+msgid "Article"
+msgstr ""
+
+#: ../includes/settings.php:51
+msgid "Athlete"
+msgstr ""
+
+#: ../includes/settings.php:52
+msgid "Author"
+msgstr ""
+
+#: ../includes/settings.php:53
+msgid "Band"
+msgstr ""
+
+#: ../includes/settings.php:54
+msgid "Bar"
+msgstr ""
+
+#: ../includes/settings.php:55
+msgid "Blog"
+msgstr ""
+
+#: ../includes/settings.php:56
+msgid "Book"
+msgstr ""
+
+#: ../includes/settings.php:57
+msgid "Cafe"
+msgstr ""
+
+#: ../includes/settings.php:58
+msgid "Cause"
+msgstr ""
+
+#: ../includes/settings.php:59
+msgid "City"
+msgstr ""
+
+#: ../includes/settings.php:60
+msgid "Company"
+msgstr ""
+
+#: ../includes/settings.php:61
+msgid "Country"
+msgstr ""
+
+#: ../includes/settings.php:62
+msgid "Director"
+msgstr ""
+
+#: ../includes/settings.php:63
+msgid "Drink"
+msgstr ""
+
+#: ../includes/settings.php:64
+msgid "Food"
+msgstr ""
+
+#: ../includes/settings.php:65
+msgid "Game"
+msgstr ""
+
+#: ../includes/settings.php:66
+msgid "Government"
+msgstr ""
+
+#: ../includes/settings.php:67
+msgid "Hotel"
+msgstr ""
+
+#: ../includes/settings.php:68
+msgid "Landmark"
+msgstr ""
+
+#: ../includes/settings.php:69
+msgid "Movie"
+msgstr ""
+
+#: ../includes/settings.php:70
+msgid "Musician"
+msgstr ""
+
+#: ../includes/settings.php:71
+msgid "Non Profit"
+msgstr ""
+
+#: ../includes/settings.php:72
+msgid "Politician"
+msgstr ""
+
+#: ../includes/settings.php:73
+msgid "Product"
+msgstr ""
+
+#: ../includes/settings.php:74
+msgid "Public Figure"
+msgstr ""
+
+#: ../includes/settings.php:75
+msgid "Restaurant"
+msgstr ""
+
+#: ../includes/settings.php:76
+msgid "School"
+msgstr ""
+
+#: ../includes/settings.php:77
+msgid "Song"
+msgstr ""
+
+#: ../includes/settings.php:78
+msgid "Sport"
+msgstr ""
+
+#: ../includes/settings.php:79
+msgid "Sports League"
+msgstr ""
+
+#: ../includes/settings.php:80
+msgid "Sports Team"
+msgstr ""
+
+#: ../includes/settings.php:81
+msgid "State Province"
+msgstr ""
+
+#: ../includes/settings.php:82
+msgid "TV Show"
+msgstr ""
+
+#: ../includes/settings.php:83
+msgid "University"
+msgstr ""
+
+#: ../includes/settings.php:84
+msgid "Website"
+msgstr ""
+
+#: ../includes/settings.php:92
+msgid "Share:"
+msgstr ""
+
+#: ../includes/settings.php:95 ../includes/settings.php:138
+msgid "Like"
+msgstr ""
+
+#: ../includes/settings.php:96
+msgid "Like and Share"
+msgstr ""
+
+#: ../includes/settings.php:97
+msgid "Share"
+msgstr ""
+
+#: ../includes/settings.php:99
+msgid "Select which button to display."
+msgstr ""
+
+#: ../includes/settings.php:103
+msgid "Layout:"
+msgstr ""
+
+#: ../includes/settings.php:106
+msgid "Standard"
+msgstr ""
+
+#: ../includes/settings.php:107
+msgid "Button Count"
+msgstr ""
+
+#: ../includes/settings.php:108
+msgid "Box Count"
+msgstr ""
+
+#: ../includes/settings.php:109
+msgid "Button"
+msgstr ""
+
+#: ../includes/settings.php:110
+msgid "Link"
+msgstr ""
+
+#: ../includes/settings.php:111
+msgid "Icon Link"
+msgstr ""
+
+#: ../includes/settings.php:112
+msgid "Icon"
+msgstr ""
+
+#: ../includes/settings.php:114
+msgid "Default for Like is Standard. Default for Share is Icon Link."
+msgstr ""
+
+#: ../includes/settings.php:118
+msgid "Width:"
+msgstr ""
+
+#: ../includes/settings.php:121
+msgid ""
+"Minimum for Standard = 450, Button Count = 90, Box Count = 55, Button = 47."
+msgstr ""
+
+#: ../includes/settings.php:125
+msgid "Show Faces:"
+msgstr ""
+
+#: ../includes/settings.php:128 ../includes/settings.php:172
+msgid "No"
+msgstr ""
+
+#: ../includes/settings.php:129 ../includes/settings.php:173
+msgid "Yes"
+msgstr ""
+
+#: ../includes/settings.php:131
+msgid "Display Facebook profile pictures of people who liked your product."
+msgstr ""
+
+#: ../includes/settings.php:135
+msgid "Action:"
+msgstr ""
+
+#: ../includes/settings.php:139
+msgid "Recommend"
+msgstr ""
+
+#: ../includes/settings.php:141
+msgid "Specify the verb you want to display."
+msgstr ""
+
+#: ../includes/settings.php:145
+msgid "Font:"
+msgstr ""
+
+#: ../includes/settings.php:148
+msgid "Arial"
+msgstr ""
+
+#: ../includes/settings.php:149
+msgid "Lucida Grande"
+msgstr ""
+
+#: ../includes/settings.php:150
+msgid "Segoe ui"
+msgstr ""
+
+#: ../includes/settings.php:151
+msgid "Tahoma"
+msgstr ""
+
+#: ../includes/settings.php:152
+msgid "Trebuchet ms"
+msgstr ""
+
+#: ../includes/settings.php:153
+msgid "Verdana"
+msgstr ""
+
+#: ../includes/settings.php:155
+msgid "Specify the font you want to use."
+msgstr ""
+
+#: ../includes/settings.php:159
+msgid "Colorscheme:"
+msgstr ""
+
+#: ../includes/settings.php:162
+msgid "Light"
+msgstr ""
+
+#: ../includes/settings.php:163
+msgid "Dark"
+msgstr ""
+
+#: ../includes/settings.php:165
+msgid "Select the colorscheme of your website. Default is Light."
+msgstr ""
+
+#: ../includes/settings.php:169
+msgid "Kid Directed Content:"
+msgstr ""
+
+#: ../includes/settings.php:175
+msgid ""
+"Your web site or online service, or a portion of your service, is directed "
+"to children under 13. Default is No."
+msgstr ""
+
+#: ../includes/settings.php:179
+msgid "Tracking Referral:"
+msgstr ""
+
+#: ../includes/settings.php:182
+msgid "Optional. Max. 50 characters."
+msgstr ""
+
+#: ../includes/settings.php:186
+msgid "Open Graph Tags"
+msgstr ""
+
+#: ../includes/settings.php:186
+msgid ""
+"If you want to use 'Open Graph Tags', you need to specify all *-marked "
+"fields."
+msgstr ""
+
+#: ../includes/settings.php:189
+msgid "Type"
+msgstr ""
+
+#: ../includes/settings.php:201
+msgid "Chose a type. Default is 'product'."
+msgstr ""
+
+#: ../includes/settings.php:205
+msgid "Size of Image:"
+msgstr ""
+
+#: ../includes/settings.php:208
+msgid "Specify the size of the image to use. Default is 96, minimum is 50."
+msgstr ""
+
+#: ../includes/settings.php:212
+msgid "Type of ID"
+msgstr ""
+
+#: ../includes/settings.php:215
+msgid "Facebook ID"
+msgstr ""
+
+#: ../includes/settings.php:216
+msgid "Facebook Platform application ID"
+msgstr ""
+
+#: ../includes/settings.php:218
+msgid "Default is Facebook ID."
+msgstr ""
+
+#: ../includes/settings.php:222
+msgid "ID-number(s)"
+msgstr ""
+
+#: ../includes/settings.php:225
+msgid "Comma separate multiple ID's."
+msgstr ""
+
+#: ../includes/settings.php:230
+msgid "Save Changes"
+msgstr ""

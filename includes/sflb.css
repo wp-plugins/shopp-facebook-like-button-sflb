@@ -1,0 +1,19 @@
+/**
+ * sflb.css
+ * Generic layout & styles for Shopp Facebook Like Button plugin
+ *
+ * @author Shoppdeveloper.com
+ * @package sflb
+ **/
+
+/* Generic Sflb Styles */
+
+
+#sflb{
+   float: left;
+}
+
+.hidden {
+	display: none;
+}
+
