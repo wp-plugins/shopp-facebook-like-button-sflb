@@ -16,6 +16,7 @@ Add the Facebook Like-Button to your Shopp product pages. The link on Facebook w
 With this plugin installed you can supply your customers with the Facebook Like-button. The link provided on Facebook will redirect to the actual product page. When you use Open Graph Tags as well, an image and description will be displayed on Facebook.
 
 Make sure you download the correct version.
+
 - Shopp version 1.1.x - download 1.0
 - Shopp version 1.2.x - download 1.2
 - Shopp version 1.3.x - download most current
